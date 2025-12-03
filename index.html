@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rojit Dahal Portfolio</title>
+<link href="Style.css" rel="stylesheet">
+</head>
+<body>
+    <script src="formcontrol.js"></script>
+
+<header>
+    <video autoplay muted loop id="bgVideo">
+        <source src="mov_bbb.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="headerContent">
+        <h1>Rojit Dahal</h1>
+        <nav>
+            <ul id="Navigation">
+                <li><a href="#AboutMe">About</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="Details">
+
+    <div id="AboutMe" class="sectionCard">
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm Rojit Dahal — a passionate developer who enjoys turning ideas into 
+            clean, functional digital experiences. I work with HTML, CSS, JavaScript, 
+            PHP, and Java to build everything from responsive websites to dynamic applications.
+        </p>
+    </div>
+
+    <div id="Project" class="sectionCard">
+        <h1>Projects</h1>
+        <div class="projectCard">
+            <h2>My Game Project</h2>
+            <img src="game.jpeg" alt="Game Project">
+            <p>
+                A simple but fun game created using HTML, CSS, and JavaScript. 
+                Features smooth controls, animations, and interactive gameplay.
+            </p>
+        </div>
+    </div>
+
+    <div id="Contact" class="sectionCard">
+    <h1>Contact Me</h1>
+    <form id="contactForm" novalidate>
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Name"> 
+        <span class="error" id="nameError"></span><br>
+
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Email">
+        <span class="error" id="emailError"></span><br>
+
+        <label>Message</label>
+        <input type="text" id="message" placeholder="Message Here">
+        <span class="error" id="messageError"></span><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+</section>
+
+<footer>
+    <p>All Copyright Reserved © 2025</p>
+</footer>
+
+</body>
+</html>
